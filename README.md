@@ -1,7 +1,6 @@
-# Online R mit Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/binder-R/HEAD?urlpath=rstudio)
+# Online R mit Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/rbinder/HEAD?urlpath=rstudio)
 
-
-Beispiel: <https://github.com/ModelOriented/shapper/> ant to launch it [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ModelOriented/shapper/master?filepath=binder%2Fshapper.ipynb)
+Zum Beispiel: <https://github.com/ModelOriented/shapper/> is launched via [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ModelOriented/shapper/master?filepath=binder%2Fshapper.ipynb)
 
 
 Um ein **R** Umgebung mit [Binder](https://mybinder.org) zu erstellen ist eine `DESCRIPTION` Datei im `root/` Verzeichnis der einfachste Weg. 
@@ -26,9 +25,8 @@ Die wichtigsten Punkte dabei:
    3. Zusatz-Tipp (`runtime.txt`): Damit die Installation stabil läuft, empfiehlt es sich, zusätzlich eine Datei namens `runtime.txt`
       mit nur einer Zeile zu erstellen, z. B.: `r-2023-12-01`. Das sagt Binder: "Nutze den Software-Stand vom 1. Dezember 2023".
 
-Verwende <https://mybinder.org> zum Aufbau des Links: <https://mybinder.org/v2/gh/reschreiter/binder-R/HEAD?urlpath=rstudio> und des 
-Badges: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/binder-R/HEAD?urlpath=rstudio)
-
+Verwende <https://mybinder.org> zum Aufbau des Links: <https://mybinder.org/v2/gh/reschreiter/RBinder/HEAD?urlpath=rstudio> and its  
+Badge is: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/rbinder/HEAD?urlpath=rstudio)
 
 ## Eine bestimmten R-Version
 
