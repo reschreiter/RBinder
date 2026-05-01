@@ -1,6 +1,6 @@
 # Online R mit Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/rbinder/HEAD?urlpath=rstudio)
 
-Zum Beispiel: <https://github.com/ModelOriented/shapper/> is launched via <https://mybinder.org/v2/gh/ModelOriented/shapper/master?filepath=binder%2Fshapper.ipynb>
+Zum Beispiel: <https://github.com/ModelOriented/shapper/> is launched via <https://mybinder.org/v2/gh/ModelOriented/shapper/master?filepath=binder/shapper.ipynb>
 
 
 Um ein **R** Umgebung mit [Binder](https://mybinder.org) zu erstellen ist eine `DESCRIPTION` Datei im `root/` Verzeichnis der einfachste Weg. 
