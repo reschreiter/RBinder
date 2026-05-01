@@ -1,6 +1,8 @@
-# Online R mit Binder
+# Online R mit Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/binder-R/HEAD?urlpath=rstudio)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reschreiter/binder-R/HEAD?urlpath=rstudio)
+
+Beispiel: <https://github.com/ModelOriented/shapper/> ant to launch it [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ModelOriented/shapper/master?filepath=binder%2Fshapper.ipynb)
+
 
 Um ein **R** Umgebung mit [Binder](https://mybinder.org) zu erstellen ist eine `DESCRIPTION` Datei im `root/` Verzeichnis der einfachste Weg. 
 
@@ -48,8 +50,8 @@ Stelle sicher, dass deine `DESCRIPTION`-Datei (falls vorhanden) mindestens R (>=
 
 Damit MyBinder eine R-Umgebung mit RStudio erstellt, werden normalerweise folgende Dateien benötigt (die typischerweise im Folder `binder/` liegen):
 
-* `binder/runtime.txt`: Diese Datei ist zwingend erforderlich, um MyBinder mitzuteilen, dass R verwendet werden soll. Sie muss eine Zeile im Format r-YYYY-MM-DD enthalten (z. B. r-2023-10-01), die auf einen Snapshot des CRAN-Archivs verweist.
-* `binder/install.R`: In dieser Datei listen Sie alle zusätzlichen R-Pakete auf, die vorinstalliert werden sollen (z. B. install.packages("quanteda")).
+* `binder/runtime.txt`: Diese Datei ist zwingend erforderlich, um MyBinder mitzuteilen, dass R verwendet werden soll. Sie muss eine Zeile im Format `r-YYYY-MM-DD` enthalten (z. B. `r-2023-10-01`), die auf einen Snapshot des CRAN-Archivs verweist.
+* `binder/install.R`: In dieser Datei listen Sie alle zusätzlichen R-Pakete auf, die vorinstalliert werden sollen (z. B. `install.packages("quanteda")`).
 * `binder/apt.txt (Optional): Falls bestimmte R-Pakete Systembibliotheken von Linux benötigen, müssen diese hier aufgelistet werden.
 
 Alternativ können diese Dateien auch im Root Folger liegen anstelle von `binder/`. Diese Dateien haben Vorrang gegenüber der `DESCRIPTION` Datei.
