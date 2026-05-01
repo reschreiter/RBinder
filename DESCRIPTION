@@ -1,8 +1,8 @@
-Package: Repository4mybinderR
-Title: Repo-for-mybinder.org
+Package: MeinProjektName
+Title: Analyse fuer Binder
 Version: 0.0.1
 Depends:
-    R (>= 4.6)
+    R (>= 4.0)
 Imports:
     quanteda,
     ggplot2,
