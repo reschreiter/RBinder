@@ -4,6 +4,7 @@ Version: 0.0.1
 Depends:
     R (>= 4.0)
 Imports:
-    quanteda,
-    ggplot2,
-    dplyr
+    tidyverse
+    summarytools
+    explore
+    quanteda
